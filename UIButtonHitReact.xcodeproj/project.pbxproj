@@ -14,6 +14,9 @@
 		187B134821D3221B0076BAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187B134621D3221B0076BAC3 /* LaunchScreen.storyboard */; };
 		187B135321D3221B0076BAC3 /* UIButtonHitReactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B135221D3221B0076BAC3 /* UIButtonHitReactTests.swift */; };
 		187B135E21D3221B0076BAC3 /* UIButtonHitReactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B135D21D3221B0076BAC3 /* UIButtonHitReactUITests.swift */; };
+		187B136D21D322680076BAC3 /* UIButton+HitRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B136C21D322680076BAC3 /* UIButton+HitRect.swift */; };
+		187B136E21D322680076BAC3 /* UIButton+HitRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B136C21D322680076BAC3 /* UIButton+HitRect.swift */; };
+		187B136F21D322680076BAC3 /* UIButton+HitRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B136C21D322680076BAC3 /* UIButton+HitRect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		187B135921D3221B0076BAC3 /* UIButtonHitReactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonHitReactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187B135D21D3221B0076BAC3 /* UIButtonHitReactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonHitReactUITests.swift; sourceTree = "<group>"; };
 		187B135F21D3221B0076BAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187B136C21D322680076BAC3 /* UIButton+HitRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+HitRect.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		187B133C21D3221A0076BAC3 /* UIButtonHitReact */ = {
 			isa = PBXGroup;
 			children = (
+				187B136B21D3224A0076BAC3 /* Hit */,
 				187B133D21D3221A0076BAC3 /* AppDelegate.swift */,
 				187B133F21D3221A0076BAC3 /* ViewController.swift */,
 				187B134121D3221A0076BAC3 /* Main.storyboard */,
@@ -123,6 +128,14 @@
 				187B135F21D3221B0076BAC3 /* Info.plist */,
 			);
 			path = UIButtonHitReactUITests;
+			sourceTree = "<group>";
+		};
+		187B136B21D3224A0076BAC3 /* Hit */ = {
+			isa = PBXGroup;
+			children = (
+				187B136C21D322680076BAC3 /* UIButton+HitRect.swift */,
+			);
+			path = Hit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +271,7 @@
 			files = (
 				187B134021D3221A0076BAC3 /* ViewController.swift in Sources */,
 				187B133E21D3221A0076BAC3 /* AppDelegate.swift in Sources */,
+				187B136D21D322680076BAC3 /* UIButton+HitRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187B135321D3221B0076BAC3 /* UIButtonHitReactTests.swift in Sources */,
+				187B136E21D322680076BAC3 /* UIButton+HitRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187B135E21D3221B0076BAC3 /* UIButtonHitReactUITests.swift in Sources */,
+				187B136F21D322680076BAC3 /* UIButton+HitRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
