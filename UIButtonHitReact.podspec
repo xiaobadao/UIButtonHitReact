@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/xiaobadao/UIButtonHitReact.git", :tag => "#{s.version}" }
-
+  s.swift_version = "4.2"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
