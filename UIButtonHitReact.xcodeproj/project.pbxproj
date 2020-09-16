@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183AB62325121F9F00E8CA2E /* UmbrellaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AB62225121F9F00E8CA2E /* UmbrellaFramework.framework */; };
 		187B133E21D3221A0076BAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B133D21D3221A0076BAC3 /* AppDelegate.swift */; };
 		187B134021D3221A0076BAC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B133F21D3221A0076BAC3 /* ViewController.swift */; };
 		187B134321D3221A0076BAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187B134121D3221A0076BAC3 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183AB62225121F9F00E8CA2E /* UmbrellaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UmbrellaFramework.framework; sourceTree = "<group>"; };
 		187B133A21D3221A0076BAC3 /* UIButtonHitReact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonHitReact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187B133D21D3221A0076BAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187B133F21D3221A0076BAC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183AB62325121F9F00E8CA2E /* UmbrellaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +136,7 @@
 		187B136B21D3224A0076BAC3 /* Hit */ = {
 			isa = PBXGroup;
 			children = (
+				183AB62225121F9F00E8CA2E /* UmbrellaFramework.framework */,
 				187B136C21D322680076BAC3 /* UIButton+HitRect.swift */,
 			);
 			path = Hit;
@@ -449,14 +453,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39397ZGFWP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UIButtonHitReact/Hit",
+				);
 				INFOPLIST_FILE = UIButtonHitReact/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.egg.apple.UIButtonHitReact;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsm.idemo.aaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -466,14 +475,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39397ZGFWP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UIButtonHitReact/Hit",
+				);
 				INFOPLIST_FILE = UIButtonHitReact/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.egg.apple.UIButtonHitReact;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsm.idemo.aaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
