@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIButtonHitReact"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "扩大button点击范围"
 
   # This description is used to generate tags and improve search results.
